@@ -1,0 +1,94 @@
+/* Reset default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Dashboard container */
+.dashboard {
+    display: flex;
+    height: 100vh;
+}
+
+/* Navigation styles */
+.navigation {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    transition: all 0.3s ease;
+    margin-top: 50px;
+}
+
+.navigation a:hover {
+    background-color: #555;
+}
+
+/* Content styles */
+.content {
+    padding: 20px;
+    flex: 1;
+}
+
+/* Title styles */
+
+
+/* Content styles */
+.content {
+    padding: 20px;
+    flex: 1;
+}
+
+/* Title styles */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+    text-transform: uppercase; /* Convert text to uppercase */
+    color: #333; /* Change text color */
+    border-bottom: 2px solid #333; /* Add underline */
+    padding-bottom: 10px; /* Add padding at the bottom */
+}
+
+/* Table styles */
+.customer-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.customer-table caption {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.customer-table th,
+.customer-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.customer-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
